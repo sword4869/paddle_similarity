@@ -1,0 +1,23 @@
+# python=3.8
+# cuda 11.7
+--index-url https://mirrors.bfsu.edu.cn/pypi/web/simple	
+--trusted-host https://mirrors.bfsu.edu.cn
+
+# ----------------- recognition
+##### paddlespeech
+# pip install -i https://mirror.baidu.com/pypi/simple paddlespeech
+#
+# https://www.paddlepaddle.org.cn/: 
+# need install Microsoft Visual C++ 14.0
+# need cudnn https://developer.nvidia.com/rdp/cudnn-download cuDNN v8.8.0 (February 7th, 2023), for CUDA 11.x
+# pip install paddlepaddle-gpu==2.4.1.post117 -f https://www.paddlepaddle.org.cn/whl/linux/mkl/avx/stable.html
+# pip install paddlepaddle==2.4.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+# ----------------- match question and answer
+# need install Microsoft Visual C++ 14.0
+annoy==1.17.1
+text2vec>=1.1.5
+jieba>=0.39
+loguru
+transformers

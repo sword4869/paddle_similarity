@@ -1,0 +1,4 @@
+[submodule "dependencies/similarities"]
+	path = dependencies/similarities
+	url = https://github.com/shibing624/similarities.git
+	ignore = all
